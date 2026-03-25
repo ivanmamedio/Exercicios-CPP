@@ -6,4 +6,6 @@ int main()
     std::cout << "Digite as três notas: ";
     std::cin >> n1 >> n2 >> n3;
     float media = (n1 + n2 + n3) / 3;
+    std::cout << "Média: " << media << std::endl;
+    return 0;
 }
